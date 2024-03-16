@@ -3,6 +3,9 @@ from Ecg import ECG
 
 # intialize ecg object
 ecg = ECG()
+
+st.header("Cardiovascular Detection using ECG Images")
+
 # get the uploaded image
 uploaded_file = st.file_uploader("Choose a file")
 # uploaded_file = "../ECG_IMAGES_DATASET/ECG Images of Myocardial Infarction Patients (240x12=2880)/MI(2).jpg"
